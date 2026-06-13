@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Database
+*.db
+resources/
+
+# Logs
+*.log
+debug.log
+server.log
+test_output.log
+server_async.log
+
+# SSL certificates
+cert.pem
+key.pem
+*.csr
+
+# Test artifacts
+test_result.txt
+__pycache__/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Backups
+* - 副本*
+*- 副本*/
+*-副本*/
