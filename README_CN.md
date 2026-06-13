@@ -22,11 +22,9 @@
 - **👥 在线用户管理** — 实时显示在线用户列表及状态
 - **📁 文件传输** — 内置文件服务器，支持文件上传与下载
 - **🤖 AI 聊天机器人** — 集成 Ollama API，支持本地大模型对话
-- **📹 音视频通话邀请** — 支持语音/视频通话邀请功能
 - **👨‍👩‍👧‍👦 群组聊天** — 支持群组创建与群组消息
 - **🎨 丰富的消息展示** — Emoji 表情支持
 - **👤 用户系统** — 注册/登录、头像上传、资料修改、账号注销
-- **🧪 压力测试工具** — 内置高性能压测脚本，支持并发测试
 
 ## 🏗️ 系统架构
 
@@ -126,7 +124,6 @@ python client.py
 | **Threading** | 并发处理 |
 | **Pillow (PIL)** | 图像处理 |
 | **Ollama API** | AI 聊天机器人 |
-| **MarkdownIt** | Markdown 渲染 |
 
 ## 📂 项目结构
 
@@ -135,11 +132,8 @@ chat-room/
 ├── server.py              主服务器（聊天 + 文件服务）
 ├── client.py              主客户端（Tkinter GUI）
 ├── client2.py             备选客户端（TinUI）
-├── emojo.py               表情功能模块
 ├── generate_cert.py       SSL 证书生成工具
-├── stress_test.py         压力测试工具
 ├── requirements.txt       依赖清单
-├── resources/             文件服务器资源目录
 ├── font/                  字体文件
 ├── icon/                  图标资源
 └── icons/                 UI 图标
